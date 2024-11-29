@@ -248,7 +248,7 @@ li{
         text-align: justify;
         width: 50%;
         padding-right: 16vw;
-        background-color: cyan;
+        
        
         
     }
@@ -261,8 +261,7 @@ li{
     }
     #date p{
         padding: 1vw 0;
-        background: red;
-      
+        
     }
     
     
