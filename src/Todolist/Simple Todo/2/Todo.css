@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#parentdiv{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+#parentdiv h1{
+    background-color: black;
+    padding: 1vw 0;
+    text-align: center;
+    font-size: 3vw;
+    
+}
+#parentdiv input{
+    font-size: 1.5vw;
+    height: 3.5vw;
+    width: 20%;
+    padding: 0 1vw;
+    border: 3px solid black;
+    margin-left: 1.8vw;
+    border-radius: 2px;
+    margin-top: 1vh;
+    
+}
+#parentdiv #addbtn{
+    width: 8%;
+    padding: 1.1vh;
+    align-self: center;
+    color: white;
+    font-size: 1.6vw;
+    background-color: black;
+    border: 3px solid black;
+    border-radius: 3px;
+    margin-left: 1.5vh;
+  
+   
+}
+#parentdiv #addbtn:active{
+    scale: 0.8;
+}
+#itoms{
+    align-items: center;
+    margin-top: 1vw;
+    gap: 4vw;
+  
+}
+li{
+    list-style-type: none;
+    color: black;
+    padding: 1.4vh 0vw;
+    margin-top: 3vh;
+    margin-left: 1.9vw;
+    padding-right: 18vw;
+    text-align: justify;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+#deletebtn{
+    padding: 1.3vh;
+    color:white;
+   background-color: lightseagreen;
+   position: absolute;
+   right: 0;
+   margin-right: 10vw;
+   cursor: pointer;
+   border: none;
+
+}
+#deletebtn:active{
+    scale: 0.8;
+}
+li{
+    position: relative;
+    font-size: large;
+   
+}
+#ulTwo{
+  
+    position: absolute;
+    left: 24vw;
+    top: 12vw;
+
+
+}
+#ulTwo p{
+    font-weight: none;
+    font-size: 1.1vw;
+    color: grey;
+    padding: 1.2vw 0;
+    width: 48%;
+}
+#delbtn #img{
+    background-image: url("./menu-line.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  width: 10px;
+  height: 10px;
+  color: white;
+  background-color: #dada;
+  
+}
+#detail{
+    position: absolute;
+    left: 24vw;
+    top: 12vw;
+    color: grey;
+
+}
+#detail p{
+    font-weight: none;
+    font-size: 1.1vw;
+    color: grey;
+    padding: 1.2vw 0;
+    text-align: justify;
+    width: 50%;
+    padding-right: 16vw;
+   
+    
+}
+#date{
+    position: absolute;
+    left: 47vw;
+    top: 13vw;
+    color: grey;
+
+}
+#date p{
+    padding: 1vw 0;
+  
+}
+/*New Data*/
+
+
+
+@media (max-width: 600px) {
+    #parentdiv{
+        color: white;
+        display: flex;
+        flex-direction: column;
+    }
+    #parentdiv h1{
+        background-color: black;
+        padding: 3vw 0;
+        text-align: center;
+        font-size: 4vw;
+        
+    }
+    #parentdiv input{
+        font-size: 2.2vw;
+        height: 5vw;
+        width: 25%;
+        padding: 0 1vw;
+        border: 3px solid black;
+        margin-left: 1.8vw;
+        border-radius: 2px;
+        margin-top: 1vh;
+        
+    }
+    #parentdiv #addbtn{
+        width: 14%;
+        padding: 1.4vh;
+        align-self: center;
+        color: white;
+        font-size: 2vw;
+        background-color: black;
+        border: 3px solid black;
+        border-radius: 3px;
+        margin-left: 1.5vh;
+      
+       
+    }
+    #itoms{
+        align-items: center;
+        margin-top: 1vw;
+        gap: 4vw;
+      
+    }
+    li{
+        list-style-type: none;
+        color: black;
+        padding: 1.4vh 0vw;
+        margin-top: 3vh;
+        margin-left: 1.9vw;
+        
+        text-align: justify;
+        font-size: 1.5vw;
+        font-weight: bold;
+    }
+    #deletebtn{
+        padding: 1.3vh;
+        color:white;
+       background-color: lightseagreen;
+       position: absolute;
+       right: 0;
+       margin-right: 10vw;
+       cursor: pointer;
+       border: 1px solid orange;
+    }
+    li{
+        position: relative;
+        font-size: large;
+       
+    }
+    #ulTwo{
+      
+        position: absolute;
+        left: 44vw;
+        top: 25vw;
+        width: 60%;
+    
+    
+    }
+    #ulTwo p{
+        font-weight: none;
+        font-size: 4vw;
+        color: grey;
+        padding: 2vw 0;
+        text-align: justify;
+       
+    }
+    #delbtn{
+        background-image: url("./menu-line.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+      width: 10px;
+      height: 10px;
+      color: white;
+      background-color: #dada;
+      
+    }
+    #detail{
+        position: absolute;
+        left: 30vw;
+        top: 20vw;
+        color: grey;
+    
+    }
+    #detail p{
+        font-weight: none;
+        font-size: 2vw;
+        color: grey;
+        padding: 1.2vw 0;
+        text-align: justify;
+        width: 50%;
+        padding-right: 16vw;
+        background-color: cyan;
+       
+        
+    }
+    #date{
+        position: absolute;
+        left: 56vw;
+        top: 20vw;
+        color: grey;
+    
+    }
+    #date p{
+        padding: 1vw 0;
+        background: red;
+      
+    }
+    
+    
+    
+}
