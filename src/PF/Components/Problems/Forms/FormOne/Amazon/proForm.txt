@@ -1,0 +1,61 @@
+import React, { useState } from "react"
+
+const proReg =()=>{
+    const [username, setusername]=useState('');
+    const [useremail,setuseremail]=useState('');
+    const [userphone, setuserphone]=useState('');
+    const [userpassword, setuserpassword]=useState('');
+    const [userconfirmpassword, setuserconfirmpassword]=useState('');
+    const [userDateOfBirth, setuserDateOfBirth]=useState('');
+    const [usercity, setusercity]=useState('');
+    const [usertehsil, setusertehsil]=useState('');
+    const [userdistrict, setuserdistrict]=useState('');
+    const [userStreetAddress, setuserStreetAddress]=useState('');
+    const [userHouseNumber, setuserHouseNumber]=useState('');
+
+     const formHandler=()=>{
+        console.log(username);
+        setusername('');
+        console.log(useremail);
+        setuseremail('');
+        console.log(userphone);
+        setuserphone('');
+        console.log(userpassword);
+        setuserpassword('');
+        console.log(userconfirmpassword);
+        setuserconfirmpassword('');
+        console.log(userDateOfBirth);
+        setuserDateOfBirth('');
+        console.log(usercity);
+        setusercity('');
+        console.log(usertehsil);
+        setusertehsil('');
+        console.log(userdistrict);
+        setuserdistrict('');
+        console.log(userStreetAddress);
+        setuserStreetAddress('');
+        console.log(userHouseNumber);
+        setuserHouseNumber('');
+
+     }
+    return(
+        <div>
+            <form onSubmit={(e)=>{e.preventDefault();formHandler();}}>
+            <div id="fname"><p>Name</p><input onChange={(e)=>{setusername(e.target.value)}}type="text" placeholder="Enter your name" value={username} /></div>
+            <div id="fname"><p>Email Address</p><input onChange={(e)=>{setuseremail(e.target.value)}} type="email" placeholder="Enter Email Address" value={useremail} /></div>
+            <div id="fname"><p>Phone Number</p><input onChange={(e)=>{setuserphone(e.target.value)}} type="phone" placeholder="Enter  Phone Number" value={userphone} /></div>
+            <div id="fname"><p>Password</p><input onChange={(e)=>{setuserpassword(e.target.value)}} type="password" placeholder="Enter Secure Password " value={userpassword} /></div>
+            <div id="fname"><p>Confirm Password</p><input onChange={(e)=>{setuserconfirmpassword(e.target.value)}} type="password" placeholder="RE-Type your Password" value={userconfirmpassword} /></div>
+            <div id="fname"><p>DOB</p><input onChange={(e)=>{setuserDateOfBirth(e.target.value)}} type="text" placeholder="Enter your DOB" value={userDateOfBirth} /></div>
+            <div id="fname"><p>City</p><input onChange={(e)=>{setusercity(e.target.value)}} type="text" placeholder="Enter your City " value={usercity} /></div>
+            <div id="fname"><p>Tehsil</p><input onChange={(e)=>{setusertehsil(e.target.value)}} type="text" placeholder="Enter your tehsil" value={usertehsil} /></div>
+            <div id="fname"><p>District</p><input onChange={(e)=>{setuserdistrict(e.target.value)}} type="text" placeholder="Enter your district" value={userdistrict} /></div>
+            <div id="fname"><p>Street Address</p><input onChange={(e)=>{setuserStreetAddress(e.target.value)}} type="text" placeholder="Enter your Street No." value={userStreetAddress} /></div>
+            <div id="fname"><p>House No.</p><input onChange={(e)=>{setuserHouseNumber(e.target.value)}} type="text" placeholder="Enter your House No." value={userHouseNumber} /></div>
+            <button>Register</button>
+
+            </form>
+        </div>
+    )
+}
+export default proReg

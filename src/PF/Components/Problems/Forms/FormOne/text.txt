@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+#form h1{
+    font-size: 2.7vw;
+    font-weight: bold;
+    color: blue;
+}
+
+#form{
+    margin-top: 2vw;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+   
+}
+p{
+    font-weight: 500;
+}
+input{
+    border: 1px solid blue;
+    padding: .7vw 15vw;
+    border-radius: 5px;
+   
+}
+button{
+    background-color: blueviolet;
+    padding: .8vw;
+    border-radius: 4px;
+   position: relative;
+   left: 19vw;
+   color: white;
+   font-weight: 400;
+}
+
+@media (max-width: 600px) {
+    #form{
+        margin-top: 10vw;
+    }
+   #form  h1{
+        font-size: 6vw;
+    }
+    input{
+        margin: 1vw 0;
+    }
+    p{
+        margin: .3vw;
+    }
+    button{
+        position: relative;
+        left:23vh;
+        padding: 1.2vh;
+    }
+    
+}
+
+
