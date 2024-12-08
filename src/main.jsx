@@ -1,19 +1,19 @@
-import React, { useState } from "react";
-
-import { StrictMode } from "react";
+import React, { StrictMode, useState } from "react";
 import { createRoot } from "react-dom/client";
- //
+import "./index.css"
 
 import App from "./App";//Import means received
-import { BrowserRouter } from "react-router-dom";
-// import "./style.css";
+import AuthContext from "./Components/Context API/AuthContext";
 
+// import "./style.css";
 let root=createRoot(document.querySelector("#root"));
 root.render(
-  <BrowserRouter>
-   <App/>
-   </BrowserRouter>
+    
+ <AuthContext>
+<App/>
+</AuthContext>
+
+)
+  
   
  
- 
-   )

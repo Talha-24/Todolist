@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+
+}
+body{ 
+    background-color: #000;
+    color: white;
+}
+#loginbtn:active{
+    scale:0.8;
+    border-radius: 3px;
+}
+#createBtn:active{
+    scale: 0.8;
+    background-color: red;
+    
+}
+@media (max-width:1000px) {
+    #admincomponents{
+      
+
+    }
+    #admincomponents form{
+        background: #000;
+        display: flex;
+        flex-direction: column;
+    }
+    #admincomponents form h3{
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    #inputs{
+        width: 100%;
+        margin: none;
+
+    }
+    #inputs input{
+         margin-top: 1vw;
+        width: 100%;
+    }
+    #textarea{
+        margin-top: 20px;
+        width: 100%;
+    }
+    #textarea h3{
+        margin: 10px 0;
+    }
+  
+    
+}
+@media (max-width: 400px) {
+    #admincomponents{
+      
+
+    }
+    #admincomponents form{
+        background: #000;
+        display: flex;
+        flex-direction: column;
+    }
+    #admincomponents form h3{
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    #inputs{
+        width: 100%;
+        margin: none;
+
+    }
+    #inputs input{
+        padding: 2vw 2vw;
+         margin-top: 1vw;
+        width: 100%;
+    }
+    #textarea{
+        margin-top: 20px;
+        width: 100%;
+        height: 40vh;
+    }
+    #textarea h3{
+        margin: 10px 0;
+    }
+    
+}
