@@ -20,5 +20,17 @@
   
    
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      const redirect = () => {
+        const pathname = window.location.pathname;
+        const redirectPath = Todolist.replace('/Todolist', '');
+        if (redirectPath !== Todolist) {
+          window.history.replaceState({}, '', redirectPath);
+        }
+      };
+      redirect();
+    </script>
+    
+
   </body>
 </html>
