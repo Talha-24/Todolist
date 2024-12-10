@@ -23,8 +23,8 @@
     <script>
       const redirect = () => {
         const pathname = window.location.pathname;
-        const redirectPath = Todolist.replace('/Todolist', '');
-        if (redirectPath !== Todolist) {
+        const redirectPath = username.replace('/username', '');
+        if (redirectPath !== username) {
           window.history.replaceState({}, '', redirectPath);
         }
       };
