@@ -6,8 +6,11 @@ const Header = (propse) => {
   console.log();
 
   const logout=()=>{
+    let perm=confirm("You are Loggin Out??");
+if(perm){
     localStorage.setItem("Employee",'');
     propse.loggedInUser('');
+  }
   }
     
 

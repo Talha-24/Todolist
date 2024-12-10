@@ -4,6 +4,7 @@ const employees = [
       firstName: "M.Talha",
       email: "employee@example.com",
       password: "123",
+      taskmsg :[],
       taskCounts: {
         "active":1,
         "newTask":1,
@@ -17,6 +18,9 @@ const employees = [
           taskDescription: "Complete the project report as soon as it possible and document all of your work in a Sheet (excel sheet).Also meet me in office now..", 
           taskCategory: "Documentation", 
           taskDate: "2024-12-05", 
+        
+
+
           active: true, 
           failed: false, 
           completed: false, 
@@ -49,6 +53,7 @@ const employees = [
       firstName: "Mehwish Sattar!",
       email: "employee2@example.com",
       password: "123",
+      taskmsg :[],
       taskCounts: {
         "active":0,
         "newTask":5,
@@ -62,6 +67,7 @@ const employees = [
           taskDescription: "Conduct team meeting,yes you have to conduct the team meeting and document all of your learnings as well as experience with new clients.Also let me know about their feedback about our company", 
           taskCategory: "Meeting", 
           taskDate: "2024-12-05", 
+         
           active: true, 
           failed: false, 
           completed: false, 
@@ -72,6 +78,7 @@ const employees = [
           taskDescription: "Test new features", 
           taskCategory: "Testing", 
           taskDate: "2024-12-06", 
+          
           active: false, 
           failed: false, 
           completed: true, 
@@ -84,6 +91,7 @@ const employees = [
       firstName: "Sobia Sattar",
       email: "employee3@example.com",
       password: "123",
+      taskmsg :[],
       taskCounts: {
         "active":3,
         "newTask":8,
@@ -97,6 +105,7 @@ const employees = [
           taskDescription: "Write user documentation,I believe you are coming upto my expectations,last day I assigned you a task of  documentation?Does it sounds good?", 
           taskCategory: "Documentation", 
           taskDate: "2024-12-08", 
+         
           active: false, 
           failed: true, 
           completed: false, 
@@ -107,6 +116,7 @@ const employees = [
           taskDescription: "Have you updated the UI? You have just two days and within two days, I need the UI Completed.Also make me aware of the live changes in UI", 
           taskCategory: "Design", 
           taskDate: "2024-12-09", 
+        
           active: true, 
           failed: false, 
           completed: false, 
@@ -117,6 +127,7 @@ const employees = [
           taskDescription: "Have you optimized your code performance??As you know well, redendency in any code is bullshit spot?An expert Programmer always focus on clean code.. ", 
           taskCategory: "Development", 
           taskDate: "2024-12-10", 
+        
           active: true, 
           failed: false, 
           completed: true, 
@@ -129,6 +140,7 @@ const employees = [
       firstName: "Abdul  Sattar",
       email: "employee4@example.com",
       password: "123",
+      taskmsg :[],
       taskCounts: {
         "active":4,
         "newTask":8,
@@ -142,6 +154,7 @@ const employees = [
           taskDescription: "As you know that we just have been a meeting at Hotel, reach there immediately", 
           taskCategory: "Meeting", 
           taskDate: "2024-12-11", 
+        
           active: true, 
           failed: false, 
           completed: false, 
@@ -154,6 +167,7 @@ const employees = [
       firstName: "Ayesha Sattar",
       email: "employee5@example.com",
       password: "123",
+      taskmsg :[],
       taskCounts: {
         "active":5,
         "newTask":8,
@@ -167,6 +181,7 @@ const employees = [
           taskDescription: "You need to anylyze the data of 100 People.", 
           taskCategory: "Testing", 
           taskDate: "2024-12-12", 
+        
           active: true, 
           failed: false, 
           completed: true, 
@@ -177,6 +192,7 @@ const employees = [
           taskDescription: "Prepare code review notes, I believe all of the notes have been reviewed yet, as in the night I am going to record a youtube video and I need those(reviewed notes) beofer deatline..", 
           taskCategory: "Docuementation", 
           taskDate: "2024-12-13", 
+         
           active: true, 
           failed: false, 
           completed: false, 

@@ -17,14 +17,16 @@ const CreateTask = () => {
     console.log(newTask);
     user.forEach((element,idx,user)=>{
        if(taskAssign == element.firstName){
-         
-        element.tasks.unshift(newTask);
+         let permission=confirm(`You are assigning task to ",${taskAssign}," Are you sure??`);
+        if(permission){element.tasks.unshift(newTask);
         element.taskCounts.newTask=element.taskCounts.newTask+1;
-        console.log(element);
-       
-         
+        console.log(element);}
        }
-
+             settaskTitle('');
+             settaskAssign('');
+             settaskCategory('');
+             settaskDate('');
+             settaskDescription('');
     })
    
 

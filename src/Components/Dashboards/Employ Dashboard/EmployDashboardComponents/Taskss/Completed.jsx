@@ -12,8 +12,8 @@ const Completed = () => {
             </div>
             <p className='text-justify'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique sunt atque suscipit natus soluta totam, vitae voluptates laboriosam praesentium nemo?</p>
             <div className='flex justify-between  mt-4'>
-                <button className='py-1 px-2 bg-green-600 rounded-sm'>Accept Task</button>
-                <button className='py-1 px-2 bg-red-600 rounded-sm'>Reject Task</button>
+                <button id="loginbtn" className='py-1 px-2 bg-green-600 rounded-sm'>Accept Task</button>
+                <button id="loginbtn" className='py-1 px-2 bg-red-600 rounded-sm'>Reject Task</button>
             </div>
 
         </div>

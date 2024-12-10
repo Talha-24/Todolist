@@ -47,7 +47,7 @@ const App = (email,password) => {
    return (
      <div>
     {!log ? <Login LoginFunction={LoginFunction} />: ''}
-    {log == "Admin" ? <AdminDashboard loggedInUser={setLog} /> :  (log == "Employee"? <EmployDashboard loggedInUser={loggedInUser} data={setLog} /> : null)}
+    {log == "Admin" ? <AdminDashboard loggedInUser={setLog} data={loggedInUser} /> :  (log == "Employee"? <EmployDashboard loggedInUser={loggedInUser} data={setLog} /> : null)}
     </div>
   )
 }
