@@ -50,11 +50,38 @@ body{
   
     
 }
-@media (max-width: 400px) {
-    #admincomponents{
-      
+@media (max-width: 510px){
+    #adminh1{
+        line-height: 7vw;
+        font-size: 3vw;
+       
 
     }
+    #adminh1 span{
+        line-height: 1vw;
+        font-size: 4vw;
+    }
+    #adminbtn{
+        padding: 0.5vw 4px;
+      
+        font-size: 4vw;
+        text-align: justify;
+        
+
+    }
+    #adminmsgtext{
+        font-size: 10px;
+        line-height: 4vw;
+    }
+    #employmsg{
+        font-size: 8px;
+        line-height: 2vw;
+        color: yellow;
+        text-align: justify;
+    }
+}
+@media (max-width: 400px) {
+   
     #admincomponents form{
         background: #000;
         display: flex;

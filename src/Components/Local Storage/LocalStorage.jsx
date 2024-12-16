@@ -4,6 +4,8 @@ const employees = [
       firstName: "M.Talha",
       email: "employee@example.com",
       password: "123",
+      btnReply:[],
+      adminmsg:[],
       taskmsg :[],
       taskCounts: {
         "active":1,
@@ -21,7 +23,7 @@ const employees = [
         
 
 
-          active: true, 
+          active: false, 
           failed: false, 
           completed: false, 
           newTask: true 
@@ -31,7 +33,7 @@ const employees = [
           taskDescription: "Fix bugs in the application,as you are already aware of your last mistake?Fix it and also come and tell me the reason why I not suspend you..", 
           taskCategory: "Development", 
           taskDate: "2024-12-06", 
-          active: true, 
+          active: false, 
           failed: false, 
           completed: true, 
           newTask: false 
@@ -53,6 +55,8 @@ const employees = [
       firstName: "Mehwish Sattar!",
       email: "employee2@example.com",
       password: "123",
+      btnReply:[],
+      adminmsg:[],
       taskmsg :[],
       taskCounts: {
         "active":0,
@@ -68,7 +72,7 @@ const employees = [
           taskCategory: "Meeting", 
           taskDate: "2024-12-05", 
          
-          active: true, 
+          active: false, 
           failed: false, 
           completed: false, 
           newTask: true 
@@ -91,6 +95,8 @@ const employees = [
       firstName: "Sobia Sattar",
       email: "employee3@example.com",
       password: "123",
+      btnReply:[],
+      adminmsg:[],
       taskmsg :[],
       taskCounts: {
         "active":3,
@@ -117,7 +123,7 @@ const employees = [
           taskCategory: "Design", 
           taskDate: "2024-12-09", 
         
-          active: true, 
+          active: false, 
           failed: false, 
           completed: false, 
           newTask: true 
@@ -128,7 +134,7 @@ const employees = [
           taskCategory: "Development", 
           taskDate: "2024-12-10", 
         
-          active: true, 
+          active: false, 
           failed: false, 
           completed: true, 
           newTask: false 
@@ -140,6 +146,8 @@ const employees = [
       firstName: "Abdul  Sattar",
       email: "employee4@example.com",
       password: "123",
+      btnReply:[],
+      adminmsg:[],
       taskmsg :[],
       taskCounts: {
         "active":4,
@@ -155,7 +163,7 @@ const employees = [
           taskCategory: "Meeting", 
           taskDate: "2024-12-11", 
         
-          active: true, 
+          active: false, 
           failed: false, 
           completed: false, 
           newTask: true 
@@ -167,6 +175,8 @@ const employees = [
       firstName: "Ayesha Sattar",
       email: "employee5@example.com",
       password: "123",
+      btnReply:[],
+      adminmsg:[],
       taskmsg :[],
       taskCounts: {
         "active":5,
@@ -182,7 +192,7 @@ const employees = [
           taskCategory: "Testing", 
           taskDate: "2024-12-12", 
         
-          active: true, 
+          active: false, 
           failed: false, 
           completed: true, 
           newTask: false 
@@ -193,7 +203,7 @@ const employees = [
           taskCategory: "Docuementation", 
           taskDate: "2024-12-13", 
          
-          active: true, 
+          active: false, 
           failed: false, 
           completed: false, 
           newTask: true 

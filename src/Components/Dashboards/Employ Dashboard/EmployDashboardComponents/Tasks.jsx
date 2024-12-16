@@ -14,14 +14,12 @@ const Tasks = (propse) => {
       <div className='mt-10 flex flex-nowrap  gap-5 overflow-x-auto'>
         {tasks.map((elem, idx,tasks) => {
       if (elem && elem.newTask && elem.newTask == true) {
-        return <NewTask key={idx} data={elem}  />;
+        return <NewTask key={idx} data={elem} tasks={propse.data} />;
       }
       if (elem && elem.active && elem.active == true) {
         return <Active key={idx} data={elem} tasks={propse.data}  />;
       }
-      if (elem && elem.completed && elem.completed == true) {
-        return <Completed key={idx} data={elem} />;
-      }
+     
     
      
 

@@ -1,7 +1,6 @@
 import React, { createContext, useEffect, useState } from 'react'
 import { getLocalStorage, setLocalStorage } from '../Local Storage/LocalStorage';
 export const DataSender=createContext();
-// localStorage.clear();
 const AuthContext = ({children}) => {
    const [user,setUser]=useState(null);//LocalStorageDataIsStoredInHookStatesAndThenPassedThroughContextAPIBYUSERSTateHOOKS
    
